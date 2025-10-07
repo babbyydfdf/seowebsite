@@ -43,7 +43,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-24 pb-16 text-center">
+      <section id="contact" className="pt-32 pb-16 text-center scroll-mt-52">
         <div className="max-w-3xl mx-auto px-6">
           <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-gray-100 text-gray-600 rounded-full mb-4">
             <Mail className="w-4 h-4 mr-1" /> Get In Touch
