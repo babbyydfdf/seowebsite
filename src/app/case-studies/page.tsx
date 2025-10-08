@@ -1,5 +1,6 @@
 // src/app/case-studies/page.tsx
 import Link from "next/link";
+import Image from "next/image"; // ✅ correct import
 import { caseStudies } from "@/data/casestudies";
 
 export default function CaseStudiesPage() {
@@ -19,7 +20,7 @@ export default function CaseStudiesPage() {
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-4">{study.title}</h3>
               <p className="text-gray-600 mb-6 text-lg">{study.description}</p>
-              
+
               <Link
                 href={`/case-studies/${study.slug}`}
                 className="inline-block bg-[#5DA3F9] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#478de0] transition"
@@ -28,11 +29,15 @@ export default function CaseStudiesPage() {
               </Link>
             </div>
 
-            {/* Right side: Placeholder for image */}
+            {/* Right side: Actual Image */}
             <div className="flex-1">
-              <div className="w-full h-56 bg-gray-100 rounded-xl flex items-center justify-center text-gray-400 text-sm">
-                Image / Chart / Logo
-              </div>
+              <Image
+                src="/b2b-success-result.png" // ✅ your image path (place in /public/images)
+                alt="Case Study - Blockchain Company"
+                width={600}
+                height={300}
+                className="object-cover rounded-xl"
+              />
             </div>
           </div>
         ))}

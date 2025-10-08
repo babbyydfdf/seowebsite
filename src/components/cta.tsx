@@ -1,4 +1,13 @@
-import { ArrowRight, Mail, Phone, MapPin, Clock } from "lucide-react";
+import {
+  ArrowRight,
+  Mail,
+  Phone,
+  MapPin,
+  Clock,
+  Instagram,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 
 const CTA = () => {
   return (
@@ -6,66 +15,44 @@ const CTA = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Contact Info */}
-
           <div className="space-y-8">
-            <div>
-              <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                Ready to Boost Your Rankings?
-              </h2>
-
-              <p className="text-lg opacity-90 mb-6">
-                Let&apos;s discuss your SEO goals and create a strategy that
-                delivers real results.
-              </p>
-            </div>
-
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-
                   <span className="text-sm font-medium">Email</span>
                 </div>
-
-                <p className="text-sm opacity-75">
-                  thillai2408@gmail.com
-                </p>
+                <a
+                  href="mailto:thillai213@gmail.com"
+                  className="text-sm opacity-75 hover:underline"
+                >
+                  thillai213@gmail.com
+                </a>
               </div>
 
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-
                   <span className="text-sm font-medium">Phone</span>
                 </div>
-
-                <p className="text-sm opacity-75">+91 63820 07540</p>
+                <a
+                  href="tel:+916382007540"
+                  className="text-sm opacity-75 hover:underline"
+                >
+                  +91 63820 07540
+                </a>
               </div>
-
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4" />
-
-                  <span className="text-sm font-medium">Location</span>
-                </div>
-
-                <p className="text-sm opacity-75">Tamil Nadu, India</p>
-              </div>
-
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Clock className="w-4 h-4" />
-
                   <span className="text-sm font-medium">Response</span>
                 </div>
-
                 <p className="text-sm opacity-75">24-48 Hours</p>
               </div>
             </div>
           </div>
 
           {/* Right Column - CTA */}
-
           <div className="text-center lg:text-right space-y-6">
             <div className="space-y-4">
               <button className="inline-flex items-center justify-center px-6 py-3 text-lg font-medium rounded-lg bg-white text-gray-900 hover:bg-gray-200 transition">
@@ -79,10 +66,57 @@ const CTA = () => {
               </div>
             </div>
 
-            <div className="pt-8 border-t border-gray-700">
+            <div className="pt-8 border-t border-gray-700 space-y-4">
               <p className="text-sm opacity-60">
                 © 2025 Thillai Nathan SEO. All rights reserved.
               </p>
+
+              {/* Social Icons */}
+              <div className="flex justify-center lg:justify-end gap-5 text-gray-400">
+                {/* Butterfly for Bluesky */}
+                <a
+                  href="https://bsky.app/profile/thillaiseo.bsky.social"
+                  target="_blank"
+                  aria-label="Bluesky"
+                  className="group relative flex items-center justify-center w-10 h-10 rounded-full transition duration-300 hover:bg-[#5DA3F920]" // transparent blue hover
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    className="w-7 h-7 text-gray-400 group-hover:text-[#5DA3F9] transition-transform duration-300 group-hover:scale-110"
+                  >
+                    <path d="M12 6c-1.5-3.5-5.5-4.5-7.5-1.5-2 3 1 7 3 8-2 1-4 5-1.5 6.5s5.5-1 6-3.5c.5 2.5 3.5 5 6 3.5S19 13 17 12c2-.5 5-5 3-8-2-3-6-2-8 2z" />
+                  </svg>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/seothillai/"
+                  target="_blank"
+                  aria-label="Instagram"
+                  className="flex items-center justify-center w-10 h-10 rounded-full transition duration-300 hover:bg-[#5DA3F920] hover:text-[#5DA3F9]"
+                >
+                  <Instagram className="w-5 h-5" />
+                </a>
+
+                <a
+                  href="http://www.linkedin.com/in/thillai-nathan-/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                  className="flex items-center justify-center w-10 h-10 rounded-full transition duration-300 hover:bg-[#5DA3F920] hover:text-[#5DA3F9]"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+
+                <a
+                  href="https://x.com/thillai213/"
+                  target="_blank"
+                  aria-label="X (Twitter)"
+                  className="flex items-center justify-center w-10 h-10 rounded-full transition duration-300 hover:bg-[#5DA3F920] hover:text-[#5DA3F9]"
+                >
+                  <Twitter className="w-5 h-5" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

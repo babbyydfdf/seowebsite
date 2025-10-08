@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
@@ -21,22 +23,26 @@ const Hero = () => {
               </h1>
 
               <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl">
-                Thillai Nathan is an SEO Engineer with years of experience in
-                International SEO, Enterprise SEO, and E-commerce SEO. I help
-                brands grow from day-one startups into successful market leaders
-                using proven SEO methods that deliver real results.
+                Thillai Nathan is an SEO Engineer with experience spanning
+                multiple years across International SEO, Enterprise SEO, and
+                E-commerce SEO. I assist brands in scaling from day-one startups
+                to successful market leaders through tried and tested SEO
+                processes that deliver actual results.
               </p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button
+              <a
+                href="https://api.whatsapp.com/send?phone=91916382007540&text=Hi!%20Shall%20we%20start%20discussing%20about%20my%20SEO%20business%20plans%20to%20grow"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full px-6 py-3 font-semibold text-white transition-colors shadow-md hover:shadow-lg flex items-center justify-center"
                 style={{ backgroundColor: "#5DA3F9" }}
               >
-                Hire Me Now
+                Let’s Connect
                 <ArrowRight className="ml-2 h-4 w-4 inline-block" />
-              </button>
+              </a>
 
               <button
                 className="

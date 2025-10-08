@@ -6,6 +6,7 @@ export const caseStudies = [
       "B2B Enterprises Blockchain Based Company Ranking Over 1.5k Keywords",
     description:
       "How we scaled a blockchain client to rank on 500+ high-volume keywords.",
+    image: "/b2b-success-result.png",
     category: "Blockchain SEO",
     content: `
       <h2 class="mt-8 mb-4">How I Helped a Blockchain Development Company Grow From 400 to 7,000 Monthly Visitors</h2>
@@ -75,6 +76,7 @@ export const caseStudies = [
     description:
       "Case study on driving 200% organic growth for an ecommerce client.",
     category: "Ecommerce",
+    image: "/images/case1.png",
     content: "<p>Details coming soon...</p>",
   },
 ];

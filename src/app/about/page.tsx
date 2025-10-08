@@ -23,11 +23,11 @@ const About = () => {
               👨‍💻 About Me
             </span>
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-              The{" "}
+              {" "}
               <span className="bg-text-gradient bg-clip-text text-transparent">
-                Crazy SEO Guy
+                SEO & Digital Marketing 
               </span>{" "}
-              <span>from India</span>
+              <span>Professional from India</span>
             </h2>
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
               Hi! I&apos;m Thillai Nathan, and I Have been obsessed with SEO for

@@ -12,6 +12,8 @@ import Content from "@/components/content";
 
 import Success from "@/components/success";
 
+import CallToAction from "@/components/calltoaction";
+
 //import CTA from "@/components/cta";
 
 export default function Home() {
@@ -21,6 +23,7 @@ export default function Home() {
       <Content />
       <Services />
       <Success/>
+      <CallToAction/>
       <Results />
 
       <Strategy />

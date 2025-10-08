@@ -6,22 +6,15 @@ const Contact = () => {
       icon: Mail,
       title: "Email Me",
       description: "Get in touch via email",
-      value: "hello@thillainathanseo.com",
-      action: "mailto:hello@thillainathanseo.com",
+      value: "thillai213@gmail.com",
+      action: "mailto:thillai213@gmail.com",
     },
     {
       icon: Phone,
       title: "Call Me",
       description: "Let's discuss your project",
-      value: "+91 XXXXX XXXXX",
-      action: "tel:+91XXXXXXXXX",
-    },
-    {
-      icon: MapPin,
-      title: "Location",
-      description: "Based in India",
-      value: "Tamil Nadu, India",
-      action: null,
+      value: "+91 6382007540",
+      action: "tel:+916382007540",
     },
     {
       icon: Clock,
@@ -63,7 +56,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Info */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 flex justify-start pl-70">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {contactInfo.map((info, index) => (
             <div

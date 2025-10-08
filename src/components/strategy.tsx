@@ -128,7 +128,6 @@ const Strategy = () => {
               <p className="card-description">{step.description}</p>
 
               <div className="mt-4 space-y-2">
-                <h4 className="font-medium text-sm">Key Deliverables:</h4>
                 <div className="grid grid-cols-2 gap-2">
                   {step.deliverables.map((item, idx) => (
                     <div

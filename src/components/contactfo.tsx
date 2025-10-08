@@ -132,9 +132,8 @@ const ContactForm = () => {
               </div>
 
               <p className="text-gray-600 text-sm">
-                If you don&apos;t see measurable SEO improvements within 6
-                months, I&apos;ll continue working with you for free until you
-                do.
+                Guaranteed SEO growth — I will keep working with you until your
+                business achieves success.
               </p>
             </div>
 

@@ -41,12 +41,13 @@ const Navigation = () => {
               </Link>
             ))}
 
-            <button
-              className="rounded-full px-5 py-2 font-semibold text-white transition-colors shadow-md hover:shadow-lg"
+            <a
+              href="mailto:thillai213@gmail.com"
+              className="rounded-full px-5 py-2 font-semibold text-white transition-colors shadow-md hover:shadow-lg flex items-center justify-center"
               style={{ backgroundColor: "#5DA3F9" }}
             >
               Hire Me
-            </button>
+            </a>
           </div>
 
           {/* Mobile Navigation Button */}
