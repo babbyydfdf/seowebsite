@@ -14,7 +14,7 @@ const Hero = () => {
             {/* Heading & Description */}
             <div className="space-y-5">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Hi, I&apos;m{" "}
+                Hi, I am{" "}
                 <span className="bg-text-gradient bg-clip-text text-transparent">
                   Thillai Nathan
                 </span>{" "}
@@ -50,19 +50,23 @@ const Hero = () => {
             </div>
 
             {/* Mobile Image */}
-            <div className="block lg:hidden">
-              <div className="relative mx-auto w-72 h-72">
-                <div className="absolute inset-0 bg-hero-gradient rounded-full blur-3xl opacity-20"></div>
-                <Image
-                  src="/backcomplete.png"
-                  alt="Thillai Nathan"
-                  width={600}
-                  height={600}
-                  className="w-full h-full object-cover rounded-full"
-                  priority
-                />
-              </div>
-            </div>
+<div className="block lg:hidden">
+  <div className="relative mx-auto w-72 h-72">
+    {/* Background blur */}
+    <div className="absolute inset-0 bg-hero-gradient blur-3xl opacity-20"></div>
+
+    {/* Image */}
+    <Image
+      src="/thillainathan.png"
+      alt="Thillai Nathan"
+      width={600}
+      height={600}
+      className="w-full h-full object-cover"
+      priority
+    />
+  </div>
+</div>
+
           </div>
 
           {/* Desktop Image */}

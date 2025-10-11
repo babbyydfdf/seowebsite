@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@thillai213",
   },
+    other: {
+    "google-site-verification": "_Mdvm1Iyi5gZxTNXi9HcrQXtTqiMKDfgk1tglNexo6M",
+  },
 };
 
 export default function RootLayout({
