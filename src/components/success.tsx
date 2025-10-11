@@ -25,8 +25,7 @@ export default function SeoSuccess() {
           />
           <h3 className="text-2xl font-semibold mb-3">Real SEO Results</h3>
           <p className="text-lg text-gray-600 max-w-3xl">
-            Increased organic traffic by{" "}
-            <span className="font-bold text-[#5DA3F9]">250%</span>, helping
+            Increased organic traffic by  250%, helping
             brand to focus on US Based Blockchain Market rank higher and attract
             qualified leads.
           </p>
@@ -43,8 +42,7 @@ export default function SeoSuccess() {
           />
           <h3 className="text-2xl font-semibold mb-3">Sustainable Growth</h3>
           <p className="text-lg text-gray-600 max-w-3xl">
-            Creating a Complete{" "}
-            <span className="font-bold text-[#5DA3F9]">Topical Map</span> for
+            Creating a Complete Topical Map for
             Software Developmment Business to Achieve AI Ranking Seach in
             ChatGPT. I have work on Bing Especially for AI Ranking Strategy. By
             giving Right Signals to Google.

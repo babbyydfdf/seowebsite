@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Contact – Get in Touch",
+  description: "Reach out to discuss SEO, digital marketing, or website projects. Let’s work together to improve your online presence.",
+};
+
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from "lucide-react";
 
 const Contact = () => {

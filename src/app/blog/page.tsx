@@ -1,46 +1,46 @@
 // src/app/blog/page.tsx
-"use client";
-
-import { useState } from "react";
 import Link from "next/link";
-import { blogs } from "@/data/blogs";
-
-const categories = ["All", "SEO", "Marketing", "Python-SEO", "AI SEO"];
-
+export const metadata = {
+  title: "SEO, Digital Marketing & Tech Insights – Blog",
+  description: "Read practical tips, case studies, and insights on SEO, digital marketing, and web development to grow your online presence.",
+};
 export default function BlogPage() {
-  const [selectedCategory, setSelectedCategory] = useState("All");
-
-  const filteredBlogs =
-    selectedCategory === "All"
-      ? blogs
-      : blogs.filter((blog) => blog.category === selectedCategory);
+  // Manually list your blogs here
+  const blogs = [
+    {
+      slug: "journey-from-basics-seo-to-semanitcs",
+      title: "My Journey in SEO: From Basics to Semantic SEO",
+      description: "Learn how SEO evolves from basic strategies to advanced semantic techniques for better search visibility and results.",
+    },
+    {
+      slug: "seo-tools-for-beginners",
+      title: "Top SEO Tools for Beginners in 2025",
+      description: "Most useful SEO tools for beginners to improve website ranking, keyword research, and content optimization.",
+    },
+    {
+      slug: "future-of-seo",
+      title: "Future of SEO in 2025: AI, NLP, and Answer Engines",
+      description: "Understand the upcoming SEO trends, search engine updates, and strategies to stay ahead in website optimization.",
+    },
+      {
+      slug: "ai-is-changing-content-seo",
+      title: "How AI is Changing Content SEO",
+      description: "Explore ways content strategies are evolving to improve search visibility, engagement, and online growth effectively.",
+    },
+    {
+      slug: "python-seo-automation",
+      title: "How Python Can Automate Your SEO Tasks in 2025",
+      description: "Learn how Python can streamline SEO tasks like data collection, on-page audits, backlink analysis, and keyword research, helping you work smarter in 2025.",
+    },
+  
+  ];
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
-      {/* Trending Blogs */}
       <h2 className="text-3xl font-bold mb-8 text-center mt-20">All Blogs</h2>
 
-      {/* Categories */}
-      <div className="flex flex-wrap justify-center gap-4 mb-10">
-        {categories.map((cat) => (
-          <button
-            key={cat}
-            onClick={() => setSelectedCategory(cat)}
-            className={`px-5 py-2 rounded-full border transition ${
-              selectedCategory === cat
-                ? "bg-[#5DA3F9] text-white border-[#5DA3F9]"
-                : "bg-white text-gray-700 border-gray-300 hover:bg-gray-100"
-            }`}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
-
-      {/* All Blogs */}
-     
       <div className="grid md:grid-cols-3 gap-8">
-        {filteredBlogs.map((blog) => (
+        {blogs.map((blog) => (
           <div
             key={blog.slug}
             className="bg-white shadow-md rounded-xl p-6 hover:shadow-lg transition"

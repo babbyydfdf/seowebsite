@@ -139,7 +139,7 @@ const Services = () => {
           </h2>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I provide a complete digital growth framework — from semantic SEO to
+            Complete digital growth framework from semantic SEO to
             AI automation and conversion optimization. Everything you need to
             scale your online presence is right here.
           </p>

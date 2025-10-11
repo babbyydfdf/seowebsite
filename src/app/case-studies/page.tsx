@@ -1,4 +1,10 @@
 // src/app/case-studies/page.tsx
+
+export const metadata = {
+  title: "SEO & Marketing Case Studies",
+  description: "Explore real-world SEO and digital marketing case studies, showcasing strategies, results, and best practices for growing online.",
+};
+
 import Link from "next/link";
 import Image from "next/image"; // ✅ correct import
 import { caseStudies } from "@/data/casestudies";

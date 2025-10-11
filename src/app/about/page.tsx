@@ -1,5 +1,11 @@
 import Image from "next/image";
 
+export const metadata = {
+  title: "About - Thillai Natha",
+  description:
+    "Check about Me Thillai Nathan, an SEO Engineer & Digital Marketing Expert helping businesses grow online through technical SEO and strategy.",
+};
+
 const About = () => {
   return (
     <main className="bg-white text-gray-900">
@@ -9,7 +15,7 @@ const About = () => {
           {/* Left Image */}
           <div className="flex justify-center">
             <Image
-              src="/backcomplete.png"
+              src="/thillainathan.png"
               alt="Thillai Nathan"
               width={320} // ✅ set width to match lg:w-[320px]
               height={400} // ✅ approximate height (adjust if you know exact ratio)
@@ -31,9 +37,7 @@ const About = () => {
             </h2>
             <p className="mt-6 text-lg text-gray-600 leading-relaxed">
               Hi! I&apos;m Thillai Nathan, and I Have been obsessed with SEO for
-              over{" "}
-              <span className="font-semibold text-orange-500">3 years</span>{" "}
-              now. What started as curiosity became my passion, and now
+              over 3 years now. What started as curiosity became my passion, and now
               it&apos;s my mission to help businesses dominate their online
               space.
             </p>
@@ -46,7 +50,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-8">My Journey</h2>
           <p className="text-lg text-gray-700 leading-relaxed space-y-6">
-            Hi, I&apos;m Thillai Nathan — thanks for taking the time to read my
+            Hi, I&apos;m Thillai Nathan thanks for taking the time to read my
             journey. I begin my career in SEO directly. and then learned lot as
             a web developer, where I inevitably ended up solving problems which
             impacted how websites ranked on search engines. That curiosity drove
@@ -57,12 +61,12 @@ const About = () => {
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
             During my experience with a B2B company, I was given an opportunity
             to delve into international SEO. It made me realize that SEO is not
-            universal — cultures, search patterns, and even the way Google
+            universal cultures, search patterns, and even the way Google
             interprets can vary from nation to nation.
           </p>
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
             Apart from work, I am also a gym lover enthusiast, and I approach
-            SEO in a similar way — regular effort and experimentation equal
+            SEO in a similar way regular effort and experimentation equal
             results. My interest led me to delve into Python, machine learning,
             and even Google&apos;s search patents, just to figure out how search
             actually works. I also read quite a bit of marketing books, which
@@ -77,8 +81,8 @@ const About = () => {
             more advanced and technical.
           </p>
           <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-            Now, I bring all of those learnings — from technical SEO and coding
-            to semantic optimization and content strategy — together to produce
+            Now, I bring all of those learnings from technical SEO and coding
+            to semantic optimization and content strategy together to produce
             long-term results. And this blog is where I Will chronicle my
             journey, experimentation, and thinking on SEO and the future of
             search.
