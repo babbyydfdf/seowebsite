@@ -27,11 +27,11 @@ export default function TopSEOToolsBlog() {
         <p>
           SEO became my way of seeing the web differently. And honestly, the journey is just getting started.
           SEO is an ever-evolving job — algorithms change, tools improve, and trends shift faster than we expect.
-          That’s why choosing the right SEO tools for your daily workflow is so important, especially when working with clients.
+          That is why choosing the right SEO tools for your daily workflow is so important, especially when working with clients.
         </p>
         <p>
           Yeah, I know we all have 30+ Chrome extensions doing small tasks like checking meta tags or analyzing on-page issues.
-          Those are great! But here, I’m listing down the top SEO tools for beginners in 2025 that can really help you level up your game.
+          Those are great! But here, I list down the top SEO tools for beginners in 2025 that can really help you level up your game.
         </p>
         <p>
           If you are starting your SEO career in 2025 in this fast-growing, AI-powered world — these are the tools I’d personally
@@ -41,12 +41,12 @@ export default function TopSEOToolsBlog() {
         <h2 className="text-2xl font-semibold">1. Google Search Console</h2>
         <p>
           It’s your SEO health checkup report. Track impressions, clicks, indexing, and crawling issues — all straight from Google.
-          Whether you're optimizing your own blog or handling a client’s site, this tool is non-negotiable.
+          Whether you are optimizing your own blog or handling a clients site, this tool is non-negotiable.
         </p>
 
         <h2 className="text-2xl font-semibold">2. Screaming Frog</h2>
         <p>
-          One of the best tools for technical SEO. It’s paid, but worth it. The free version (500 URLs) is great for small websites.
+          One of the best tools for technical SEO. It is paid, but worth it. The free version (500 URLs) is great for small websites.
           Learn how to crawl, analyze metadata, and spot technical errors easily.
         </p>
 
@@ -69,7 +69,7 @@ export default function TopSEOToolsBlog() {
 
         <h2 className="text-2xl font-semibold">6. Yoast SEO</h2>
         <p>
-          If you're using WordPress, Yoast helps with meta tags, readability, and on-page optimization using simple traffic light indicators.
+          If you are using WordPress, Yoast helps with meta tags, readability, and on-page optimization using simple traffic light indicators.
         </p>
 
         <h2 className="text-2xl font-semibold">7. Google Trends</h2>
