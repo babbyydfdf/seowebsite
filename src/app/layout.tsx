@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import { GoogleTagManager } from '@next/third-parties/google'
+
 
 import "./globals.css";
 import Navigation from "@/components/navigation";
@@ -125,6 +127,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navigation />
         <main>{children}</main>
+        <GoogleTagManager gtmId="GTM-KC67DPMC"/>
         <CTA />
       </body>
     </html>
