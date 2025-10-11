@@ -1,3 +1,6 @@
+//src-app-blog-[slug]-page.tsx
+import { unstable_cacheLife } from "next/cache";
+
 import { notFound } from "next/navigation";
 import { blogs } from "@/data/blogs";
 
