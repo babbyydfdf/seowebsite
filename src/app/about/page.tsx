@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "About - Thillai Natha",
+  title: "About - Thillai Nathan",
   description:
     "Check about Me Thillai Nathan, an SEO Engineer & Digital Marketing Expert helping businesses grow online through technical SEO and strategy.",
 };
