@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   title: "Thillai Nathan – SEO Engineer & AI Search Expert",
   description:
     "Thillai Nathan is an SEO Engineer and AI Search Expert focused on technical SEO, semantic content, and building visibility across global search engines.",
-  openGraph: {
+  icons: {
+  icon: "https://www.thillainathan.in/favicon.ico",
+},
+openGraph: {
     title: "Thillai Nathan – SEO Engineer & AI Search Expert",
     description:
       "Thillai Nathan is an SEO Engineer and AI Search Expert focused on technical SEO, semantic content, and building visibility across global search engines.",
