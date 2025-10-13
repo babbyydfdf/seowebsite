@@ -29,7 +29,7 @@ openGraph: {
     siteName: "Thillai Nathan SEO",
     images: [
       {
-        url: "https://www.thillainanthan.in/path-to-your-image.png",
+        url: "https://www.thillainathan.in/thillainathan.png",
         width: 1024,
         height: 1024,
       },
