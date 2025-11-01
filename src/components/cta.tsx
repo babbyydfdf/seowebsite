@@ -109,7 +109,7 @@ const CTA = () => {
                 </a>
 
                 <a
-                  href="https://x.com/thillai213/"
+                  href="https://x.com/thillaiseo"
                   target="_blank"
                   aria-label="X (Twitter)"
                   className="flex items-center justify-center w-10 h-10 rounded-full transition duration-300 hover:bg-[#5DA3F920] hover:text-[#5DA3F9]"

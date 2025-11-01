@@ -60,31 +60,36 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Contact Info */}
-      <section className="py-16 bg-gray-50 flex justify-start pl-70">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {contactInfo.map((info, index) => (
-            <div
-              key={index}
-              className="text-center p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
+    {/* Contact Info */}
+{/* Contact Info */}
+<section className="py-16 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24 xl:px-32">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+      {contactInfo.map((info, index) => (
+        <div
+          key={index}
+          className="p-6 border border-gray-200 rounded-xl bg-white shadow-sm hover:shadow-md transition"
+        >
+          <info.icon className="w-12 h-12 mx-auto text-blue-600 mb-4" />
+          <h3 className="text-lg font-semibold">{info.title}</h3>
+          <p className="text-sm text-gray-500 mb-2">{info.description}</p>
+          {info.action ? (
+            <a
+              href={info.action}
+              className="text-blue-600 font-medium hover:underline"
             >
-              <info.icon className="w-12 h-12 mx-auto text-blue-600 mb-4" />
-              <h3 className="text-lg font-semibold">{info.title}</h3>
-              <p className="text-sm text-gray-500 mb-2">{info.description}</p>
-              {info.action ? (
-                <a
-                  href={info.action}
-                  className="text-blue-600 font-medium hover:underline"
-                >
-                  {info.value}
-                </a>
-              ) : (
-                <p className="font-medium">{info.value}</p>
-              )}
-            </div>
-          ))}
+              {info.value}
+            </a>
+          ) : (
+            <p className="font-medium">{info.value}</p>
+          )}
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
+
 
       {/* Contact Form & Benefits */}
       <section className="py-16">
