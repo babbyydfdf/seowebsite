@@ -1,8 +1,13 @@
 // src/app/blog/my-journey/page.tsx
+
+export const metadata = {
+  title: "My Journey in SEO: From Basics to Semantic SEO",
+  description: "How Thillai Nathan transitioned from web development to becoming a global SEO Engineer focused on semantic search and AI.",
+};
+
 export default function MyJourneyBlog() {
   const publishDate = "October 11, 2025"; // Add your date
   const author = "Thillai Nathan";
-
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
@@ -24,7 +29,7 @@ export default function MyJourneyBlog() {
         <p>
           Hi, I am Thillai and this is my story of how I went from being a curious web developer 
           to becoming a full-time SEO Engineer. I started with basic stuff and became obsessed 
-          with meaning, context, and connections in search — the essence of Semantic SEO.
+          with meaning, context, and connections in search the essence of Semantic SEO.
         </p>
 
         <h2 className="text-2xl font-semibold">From Coding to Keywords Research</h2>
@@ -38,7 +43,7 @@ export default function MyJourneyBlog() {
         <h2 className="text-2xl font-semibold">The Leap to Full-Time SEO</h2>
         <p>
           When I officially shifted from development to SEO, it felt like stepping into a new world. 
-          My background in coding helped me understand the technical side easily — things like schema markup, 
+          My background in coding helped me understand the technical side easily things like schema markup, 
           crawling, indexing, and structured data. But I soon learned SEO was not just about the technical side; 
           it was about humans, their intent, behavior, and how they connect with content.
         </p>
@@ -46,8 +51,8 @@ export default function MyJourneyBlog() {
         <h2 className="text-2xl font-semibold">Handling Teams and Responsibilities</h2>
         <p>
           After a year of deep diving into SEO, I began leading a small team. It included content writers, 
-          developers, and sometimes even designers. That’s when I realized SEO isn’t a one-person job. 
-          It’s teamwork. From keyword research to content strategy, everything needed collaboration. 
+          developers, and sometimes even designers. when I realized SEO noy a one-person job. 
+          Iy id s teamwork. From keyword research to content strategy, everything needed collaboration. 
           Each piece of content had a purpose, and every change had an impact.
         </p>
 
@@ -67,15 +72,14 @@ export default function MyJourneyBlog() {
 
         <h2 className="text-2xl font-semibold">Understanding the Shift in SEO Thinking</h2>
         <p>
-          Semantic SEO isn’t just about keywords anymore. It’s about understanding meaning, how search engines interpret 
+          Semantic SEO id about understanding meaning, how search engines interpret 
           user intent, and how words relate to each other. I focused on building topic authority and creating meaningful 
           connections between pages.
         </p>
-
         <h2 className="text-2xl font-semibold">Adopting a Holistic SEO Mindset</h2>
         <p>
           With Semantic SEO, I learned to view a website as an ecosystem: every page connected, every word chosen for purpose. 
-          It’s not about chasing algorithms; it’s about helping search engines truly understand what the content stands for.
+          It is not about chasing algorithms; It is about helping search engines truly understand what the content stands for.
         </p>
 
         <h2 className="text-2xl font-semibold">How Semantic SEO Changed My Approach</h2>
@@ -93,7 +97,7 @@ export default function MyJourneyBlog() {
 
         <h2 className="text-2xl font-semibold">Why Semantic SEO Feels More Human</h2>
         <p>
-          It’s about understanding how humans think and how search engines try to mimic that thinking. When you get that balance right, 
+          It about understanding how humans think and how search engines try to mimic that thinking. When you get that balance right, 
           SEO feels natural — almost like a conversation between your content and your audience.
         </p>
 
@@ -112,7 +116,7 @@ export default function MyJourneyBlog() {
         <h2 className="text-2xl font-semibold">Conclusion</h2>
         <p>
           Looking back, my journey from a web developer to a Semantic SEO enthusiast has been more than just a career shift — 
-          it’s been a mindset transformation. From keywords to context, from pages to purpose, SEO became my way of seeing the web differently.
+          have been a mindset transformation. From keywords to context, from pages to purpose, SEO became my way of seeing the web differently.
         </p>
       </div>
     </div>
