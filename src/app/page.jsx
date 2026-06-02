@@ -1,5 +1,6 @@
 import styles from './page.module.css';
 import Image from 'next/image';
+import { Fragment } from 'react';
 
 export const metadata = {
   title: 'Thillai Nathan | SEO Engineer',
@@ -19,15 +20,18 @@ export default function HomePage() {
   return (
     <>
       <h1>Thillai Nathan – SEO Engineer</h1>
-      <br></br>
-<Image
-  src="/thillai-nathan.png"
-  alt="Thillai Nathan"
-  width={300}
-  height={350}
-  priority
-  className={styles.profileImage}
-/>
+
+      <br />
+
+      <Image
+        src="/thillai-nathan.png"
+        alt="Thillai Nathan"
+        width={300}
+        height={350}
+        priority
+        className={styles.profileImage}
+      />
+
       <br />
 
       <p>
@@ -62,15 +66,15 @@ export default function HomePage() {
 
       <ul className={styles.expertiseGrid}>
         {expertise.map((row, i) => (
-          <>
-            <li key={`left-${i}`} className={styles.expertiseItem}>
+          <Fragment key={i}>
+            <li className={styles.expertiseItem}>
               {row.left}
             </li>
 
-            <li key={`right-${i}`} className={styles.expertiseItem}>
+            <li className={styles.expertiseItem}>
               {row.right}
             </li>
-          </>
+          </Fragment>
         ))}
       </ul>
 
@@ -106,9 +110,9 @@ export default function HomePage() {
       </p>
 
       <p>
-        My SEO strategies are built around business outcomes. Every recommendation
-        is connected to real business objectives, conversion opportunities, and
-        long-term growth.
+        My SEO strategies are built around business outcomes. Every
+        recommendation is connected to real business objectives, conversion
+        opportunities, and long-term growth.
       </p>
 
       <p>
@@ -117,11 +121,14 @@ export default function HomePage() {
         and sustainable business growth.
       </p>
 
-   <p>
-  If you would like to discuss SEO, business growth, or a potential project,
-  you can reach me through the <a href="/contact">contact page</a> or email me
-  directly at <a href="mailto:thillai213@gmail.com">thillai213@gmail.com</a>.
-</p>
+      <p>
+        If you would like to discuss SEO, business growth, or a potential
+        project, you can reach me through the{' '}
+        <a href="/contact">contact page</a> or email me directly at{' '}
+        <a href="mailto:thillai213@gmail.com">
+          thillai213@gmail.com
+        </a>.
+      </p>
     </>
   );
 }

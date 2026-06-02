@@ -1,11 +1,13 @@
 import '../styles/globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import '../styles/globals.css';
 
 export const metadata = {
   title: 'Thillainathan',
   description: 'Welcome to my little space on the internet.',
+  icons: {
+    icon: '/favicon.jpeg',
+  },
 };
 
 export default function RootLayout({ children }) {
